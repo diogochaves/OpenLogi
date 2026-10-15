@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.15] - 2026-10-15
+
+### Added
+
+- *(device)* reach Litra lights over HID++ 0x1990 with read-back ([#1841](https://github.com/AprilNEA/OpenLogi/pull/1841))
+- *(desktop)* add a per-device smooth wheel switch to the Scrolling card ([#1839](https://github.com/AprilNEA/OpenLogi/pull/1839))
+- *(device)* smooth a mouse's main wheel by diverting it (0x2121) ([#1837](https://github.com/AprilNEA/OpenLogi/pull/1837))
+- *(desktop)* offer hold-to-scroll-sideways for Back and Forward ([#1835](https://github.com/AprilNEA/OpenLogi/pull/1835))
+- *(device)* hold Back or Forward to scroll sideways with the main wheel (0x1b04 raw wheel) ([#1828](https://github.com/AprilNEA/OpenLogi/pull/1828))
+
 ## [0.8.14] - 2026-10-15
 
 ### Added
